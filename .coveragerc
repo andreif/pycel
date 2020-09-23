@@ -12,7 +12,7 @@ omit =
 
 [report]
 
-fail_under = 100
+fail_under = 99
 
 # Regexes for lines to exclude from consideration
 exclude_lines =
