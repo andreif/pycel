@@ -37,7 +37,7 @@ with open('test-requirements.txt') as f:
 
 
 setup(
-    name='pycel',
+    name='pycel-fixed',
     version=__version__,  # noqa: F821
     packages=find_packages('src'),
     package_dir={'': 'src'},
@@ -45,10 +45,6 @@ setup(
                 '& visualizing them as a graph',
     keywords='excel compiler formula parser',
     url='https://github.com/stephenrauch/pycel',
-    project_urls={
-        # 'Documentation': 'https://pycel.readthedocs.io/en/stable/',
-        'Tracker': 'https://github.com/stephenrauch/pycel/issues',
-    },
     tests_require=tests_require,
     test_suite='pytest',
     install_requires=[
