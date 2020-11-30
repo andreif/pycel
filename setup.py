@@ -50,7 +50,7 @@ setup(
     install_requires=[
         'networkx>=2.0,<2.6',
         'numpy',
-        'openpyxl>=2.6.2,<=3.0.3',
+        'openpyxl>=2.6.2,<3.1',
         'python-dateutil',
         'ruamel.yaml',
     ],
